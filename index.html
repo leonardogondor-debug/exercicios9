@@ -12,12 +12,26 @@
     </header>
 
     <main>
-        <input type="text" id="display" placeholder="digite aqui">
-        <button onclick="inserirOperador('+')">+</button>
-        <button onclick="inserirOperador('-')">-</button>
-        <button onclick="inserirOperador('x')">x</button>
-        <button onclick="inserirOperador('/')">/</button>
-        <button >Calcular</button>
+        <input type="text" id="display" placeholder="digite aqui" disabled><br>
+
+        <button onclick="inserirOperador('+')" >+</button>
+        <button onclick="inserirOperador('-')" >-</button>
+        <button onclick="inserirOperador('*')" >x</button>
+        <button onclick="inserirOperador('/')" >/</button><br>
+
+        <button onclick="inserirOperador('1')">1</button>
+        <button onclick="inserirOperador('2')">2</button>
+        <button onclick="inserirOperador('3')">3</button><br>
+        <button onclick="inserirOperador('4')">4</button>
+        <button onclick="inserirOperador('5')">5</button>
+        <button onclick="inserirOperador('6')">6</button><br>
+        <button onclick="inserirOperador('7')">7</button>
+        <button onclick="inserirOperador('8')">8</button>
+        <button onclick="inserirOperador('9')">9</button><br>
+        <button onclick="inserirOperador('0')">0</button><br>
+        
+        <button onclick="limpaDisplay()">limpar</button>
+        <button onclick="calcular()">Calcular</button>
     </main>
     
 
